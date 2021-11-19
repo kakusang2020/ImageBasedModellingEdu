@@ -33,7 +33,7 @@ int main(int argc, char *argv[])
     /*取矩阵的行元素*/
     math::Vector<double, 5> row2 = A.row(2); // 取第3行元素
     std::cout << "row2: " << row2 << std::endl;
-    //test
+    //test1
     // 向量的创建
     math::Vector<double, 5> v1;
     for (int i = 0; i < v1.dim; i++)
